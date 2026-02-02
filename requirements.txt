@@ -1,0 +1,28 @@
+# OmniLLM Requirements
+# Install with: pip install -r requirements.txt
+
+# Core ML
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.24.0
+
+# Quantization (for GPU)
+bitsandbytes>=0.41.0; platform_system=="Linux"
+
+# Vector DB for semantic cache
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Hardware profiling
+psutil>=5.9.0
+
+# Optional: Better performance
+# xformers  # Uncomment if you have CUDA
+
+# API server (optional)
+# fastapi>=0.104.0
+# uvicorn>=0.24.0
+
+# UI (optional)
+# gradio>=4.0.0
+# streamlit>=1.28.0
