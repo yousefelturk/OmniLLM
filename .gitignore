@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Models (large files)
+*.bin
+*.safetensors
+*.gguf
+*.onnx
+models/
+checkpoints/
+
+# Cache directories
+.cache/
+chroma_db/
+.cache_chroma/
+*.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+Thumbs.db
+
+# Don't include endorsement planning docs in repo
+paper/CS_AI_ENDORSEMENT_PLAN.md
+paper/ENDORSEMENT_TRACKER.md
+paper/ENDORSEMENT_MESSAGES_COPYWRITING.md
+paper/PERSONALIZED_MESSAGES.md
+paper/ENDORSEMENT_EMAIL_TEMPLATE.txt
+paper/PUBLICATION_GUIDE.md
+paper/STUDENT_ABSTRACT.txt
+
+# Keep these for reference
+!paper/OMNILLM_PAPER.md
+
+# Don't include local dev notes
+START_HERE.txt
+YOU_ARE_READY.txt
+WHAT_WE_BUILT.md
+SKILLS_USED.md
+README_PUBLISH.md
+ARCHITECTURE.md
+video/node_modules/
+video/
