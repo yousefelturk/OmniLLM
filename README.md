@@ -138,49 +138,6 @@ engine = OmniLLM(profile=profile)
 
 ---
 
-## Architecture
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                        OmniLLM                               │
-├─────────────────────────────────────────────────────────────┤
-│                                                              │
-│  ┌─────────────────┐    ┌──────────────────┐              │
-│  │  User Query     │───→│  Semantic Cache  │──→ Hit?      │
-│  └─────────────────┘    └──────────────────┘     ↓         │
-│                                    Yes → 10ms response    │
-│                                    No                     │
-│                                     ↓                      │
-│                           ┌──────────────────┐            │
-│                           │ Query Complexity │            │
-│                           │   Classifier     │            │
-│                           └──────────────────┘            │
-│                                    ↓                       │
-│                           ┌──────────────────┐            │
-│                           │ Hardware Profiler │            │
-│                           │   (Auto-detect)   │            │
-│                           └──────────────────┘            │
-│                                    ↓                       │
-│                           ┌──────────────────┐            │
-│                           │  Model Cascade   │            │
-│                           │   Router         │            │
-│                           └──────────────────┘            │
-│                                    ↓                       │
-│                           ┌──────────────────┐            │
-│                           │ Optimal Model    │            │
-│                           │ Inference        │            │
-│                           └──────────────────┘            │
-│                                    ↓                       │
-│                           ┌──────────────────┐            │
-│                           │ Cache & Return   │            │
-│                           │   Response       │            │
-│                           └──────────────────┘            │
-│                                                              │
-└─────────────────────────────────────────────────────────────┘
-```
-
----
-
 ## Project Structure
 
 ```
@@ -257,7 +214,7 @@ This project was built by a Grade 11 student as a research initiative. Contribut
 ## Citation
 
 ```bibtex
-@article{turk2024omnillm,
+@article{OmniLLM,
   title={OmniLLM: Universal Adaptive Inference Engine for Large Language Models},
   author={Turk, Yousef},
   journal={arXiv preprint arXiv:XXXX.XXXXX},
