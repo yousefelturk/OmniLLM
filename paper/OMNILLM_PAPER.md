@@ -238,6 +238,6 @@ I thank the open-source community for developing the foundational tools that ena
 
 ---
 
-**Code Availability:** https://github.com/[yousefelturk]/omnillm
+**Code Availability:** https://github.com/yousefelturk/omnillm
 
-**Author Contact:** Yousef Turk, Liwa International School Al Mushrif, Grade 11 https://linkedin.com/[yousefturk]
+**Author Contact:** Yousef Turk, Liwa International School Al Mushrif, Grade 11 **https://linkedin.com/yousefturk**
